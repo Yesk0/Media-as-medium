@@ -125,3 +125,35 @@
 .border-bottom-1 {
   border-bottom: 1px solid rgba(204, 204, 204, 1);
 }
+.container-theme {
+  width: 110px;
+  height: 30px;
+}
+#theme-selector {
+  opacity: 0;
+  pointer-events: none;
+}
+.container-theme:hover #theme-selector {
+  opacity: 1;
+  pointer-events: auto;
+}
+body.default-theme {
+  background-color: rgba(241, 241, 241, 1);
+  color: black;
+}
+
+body.dark-theme {
+  background-color: #121212;
+  color: white;
+}
+
+body.neon-theme {
+  background-color: black;
+  color: #ff073a;
+  text-shadow: 0 0 5px #ff073a, 0 0 10px #ff073a, 0 0 20px #ff073a;
+}
+
+body.anime-theme {
+  background-image: url('/img/anime-bg.jpg');
+  color: pink;
+}

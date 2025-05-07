@@ -14,9 +14,17 @@
     <title>Media-as-medium</title>
   </head>
   <body class="bg-light-gray">
-    <header class="header--first px-160px py-4">
+    <header class="header--first position-relative px-160px py-4">
       <div class="logo">
         <p class="logo__title m-0 kanit-ms">Medium Alike</p>
+      </div>
+      <div class="container-theme position-absolute">
+        <select class="position-absolute" id="theme-selector" aria-label="Theme selction">
+          <option value="default">Default</option>
+          <option value="dark">Dark</option>
+          <option value="neon">Neon</option>
+          <option value="anime">Anime</option>
+        </select>
       </div>
     </header>
     <section class="header--second px-160px py-64px">
@@ -251,5 +259,6 @@
       </div>
     </footer>
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
