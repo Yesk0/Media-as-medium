@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Media-as-medium</title>
+  </head>
+  <body class="bg-light-gray m-0">
+    <header class="header--first position-relative px-160px py-4">
+      <div class="logo">
+        <p class="logo__title m-0 kanit-ms">Medium Alike</p>
+      </div>
+      <div class="container-theme position-absolute">
+        <select
+          class="position-absolute"
+          id="theme-selector"
+          aria-label="Theme selction"
+        >
+          <option value="default">Default</option>
+          <option value="dark">Dark</option>
+          <option value="neon">Neon</option>
+          <option value="anime">Anime</option>
+        </select>
+      </div>
+    </header>
+    <section class="header--second px-160px py-64px">
+      <div class="logo">
+        <p class="logo__text m-0 kanit-ml">Hello, world!</p>
+      </div>
+    </section>
+    <main class="new-list px-160px d-flex flex-column gap-45px" id="postsCon">
+    </main>
+    <footer
+      class="footer d-flex flex-column align-items-end px-160px pt-778px pb-32px gap-32px"
+    >
+      <div class="frame-22">
+        <div class="frame-22__menu">
+          <button class="btn border-0 d-flex px-12px py-10px">
+            <span class="label-text inter-medium text-blue-gray"
+              >Credits: photos from<a
+                class="linking-text text-blue-gray"
+                href="https://unsplash.com/@surface"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Unsplash.com</a
+              >, icons from
+              <a
+                class="linking-text text-blue-gray"
+                href="https://unsplash.com/@surface"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Icons8, </a
+              >graphics from
+              <a
+                class="linking-text text-blue-gray"
+                href="https://craftwork.design/checkout/purchase-confirmation/?payment_key=a3ba0d28aa30dfd691cd535acb1f4228"
+                target="_blank"
+                rel="noopener noreferrer"
+                >craftwork.design</a
+              >.</span
+            >
+          </button>
+        </div>
+      </div>
+      <div class="menu">
+        <button class="btn border-0 d-flex px-12px py-10px">
+          <span class="label-text inter-medium"
+            >Made with
+            <img
+              class="glitter h-16px"
+              src="./img/glitter.png"
+              alt="glitter"
+            />🖤 at nFactorial in 2022.</span
+          >
+        </button>
+      </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/posts.js"></script>
+  </body>
+</html>
