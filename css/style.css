@@ -73,14 +73,17 @@
 .w-110px {
   width: 110px;
 }
+.w-265px {
+  width: 265px;
+}
 .w-693px {
   width: 693px;
 }
+.w-755px {
+  width: 755px;
+}
 .w-12px {
   width: 12px;
-}
-.gap-325px {
-  gap: 325px;
 }
 .gap-70px {
   gap: 70px;
@@ -119,6 +122,12 @@
 .pb-32px {
   padding-bottom: 32px;
 }
+.pt-96px {
+  padding-top: 96px;
+}
+.pb-36px {
+  padding-bottom: 36px;
+}
 .border-r-100px {
   border-radius: 100px;
 }
@@ -154,6 +163,9 @@ body.neon-theme {
 }
 
 body.anime-theme {
-  background-image: url('/img/anime-bg.jpg');
+  background-image: url("/img/anime-bg.jpg");
   color: pink;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
