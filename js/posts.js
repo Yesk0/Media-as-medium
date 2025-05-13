@@ -55,7 +55,7 @@ fetch(
           <div class="info-bottom d-flex justify-content-between w-755px">
             <div class="info-bottom__info d-flex align-items-center gap-2">
               <button
-                class="btn inter-medium px-3 border-0 bg-deep-blue-12 border-r-100px"
+                class="btn-top inter-medium px-3 border-0 bg-deep-blue-12 border-r-100px"
               >
                 <span class="label-text text-deep-navy">${
                   post.subsection
@@ -280,7 +280,7 @@ function renderPost(index) {
     >
       <div class="frame-22">
         <div class="frame-22__menu">
-          <button class="btn border-0 d-flex px-12px py-10px">
+          <button class="btn-low border-0 d-flex px-12px py-10px">
             <span class="label-text inter-medium text-blue-gray"
               >Credits: photos from<a
                 class="linking-text text-blue-gray"
@@ -309,7 +309,7 @@ function renderPost(index) {
         </div>
       </div>
       <div class="menu">
-        <button class="btn border-0 d-flex px-12px py-10px">
+        <button class="btn-low btn-low-second border-0 d-flex px-12px py-10px">
           <span class="label-text inter-medium"
             >Made with
             <img
