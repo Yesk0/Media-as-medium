@@ -61,7 +61,7 @@ fetch(
                   post.subsection
                 }</span>
               </button>
-              <p class="12-min-read m-0 text-gray inter-medium w-77px">
+              <p class="min-read m-0 text-gray inter-medium w-77px">
                 ${getRandomInt(1, 10)} min read
               </p>
               <p
@@ -90,7 +90,7 @@ fetch(
     const urlParams = new URLSearchParams(window.location.search);
     const postId = urlParams.get("post");
     if (postId !== null) {
-      const index = parseInt(postId, 10) - 1; 
+      const index = parseInt(postId, 10) - 1;
       if (posts[index]) {
         renderPost(index);
       }
@@ -102,18 +102,18 @@ fetch(
           { postId: index },
           "",
           `posts.html?post=${index + 1}`
-        ); 
+        );
         renderPost(index);
       });
     });
   });
 
 function renderPost(index) {
-  const post = posts[index]; 
-  if (!post) return; 
+  const post = posts[index];
+  if (!post) return;
 
   document.body.innerHTML = `
-    <header class="header--first position-relative px-160px py-4">
+    <header class="header position-relative px-160px py-4 wrapper">
       <div class="logo">
         <p class="logo__title m-0 kanit-ms">Medium Alike</p>
       </div>
@@ -130,7 +130,7 @@ function renderPost(index) {
         </select>
       </div>
     </header>
-    <section class="header--second px-160px py-64px">
+    <section class="section px-160px py-64px wrapper">
       <div class="logo d-flex">
         <a href="http://127.0.0.1:5500/posts.html"
           ><img src="/img/Left.png" alt="left arrow"
@@ -138,7 +138,7 @@ function renderPost(index) {
       </div>
     </section>
     <main
-      class="new-list px-160px pt-96px pb-36px d-flex flex-column gap-45px"
+      class="new-list px-160px pt-96px pb-36px d-flex flex-column gap-45px wrapper"
       id="postsCon"
     >
       <div class="left d-flex flex-column gap-70px">
@@ -148,7 +148,7 @@ function renderPost(index) {
             <div class="info d-flex flex-column gap-12px">
               <h2 class="authors-name m-0 inter-mb">${post.byline}</h2>
               <div class="additionally d-flex gap-1">
-                <p class="7-july m-0 inter-medium text-gray">${formatData(
+                <p class="seven-july m-0 inter-medium text-gray">${formatData(
                   post.updated_date
                 )}</p>
                 <p
@@ -156,7 +156,7 @@ function renderPost(index) {
                 >
                   ·
                 </p>
-                <p class="12-min-read m-0 inter-medium text-gray">
+                <p class="min-read m-0 inter-medium text-gray">
                   ${getRandomInt(1, 10)} min read
                 </p>
                 <p
@@ -276,7 +276,7 @@ function renderPost(index) {
       </div>
     </main>
     <footer
-      class="footer d-flex flex-column align-items-end px-160px pt-306px pb-32px gap-32px"
+      class="footer d-flex flex-column align-items-end px-160px pt-306px pb-32px gap-32px wrapper"
     >
       <div class="frame-22">
         <div class="frame-22__menu">
