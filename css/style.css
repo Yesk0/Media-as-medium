@@ -229,7 +229,7 @@ body.anime-theme {
   background: transparent;
 }
 
-.btn-low-second:hover {
+.btn-low-second:hover, .btn-top:hover {
   color: #ff073a;
   text-shadow: 0 0 5px #ff073a, 0 0 10px #ff073a, 0 0 20px #ff073a;
 }
