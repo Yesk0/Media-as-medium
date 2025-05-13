@@ -224,3 +224,87 @@ body.anime-theme {
 .title:hover {
   cursor: pointer;
 }
+
+@media (max-width: 1341px) {
+  .wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+@media (max-width: 1045px) {
+  .news {
+    flex-direction: column-reverse;
+    gap: 10px;
+  }
+  .img {
+    width: 100%;
+    height: 400px;
+  }
+  .info-bottom,
+  .top {
+    width: 100%;
+  }
+}
+@media (max-width: 775px) {
+  .kanit-ms {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  .kanit-ml {
+    font-size: 36px;
+    line-height: 80px;
+  }
+  .inter-regular {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .inter-medium {
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .inter-mb {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .inter-bold {
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .inter-bs {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .inter-bb {
+    font-size: 28px;
+    line-height: 34px;
+  }
+  .sfpd {
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .header {
+    padding-top: 18px !important;
+    padding-bottom: 18px !important;
+  }
+  .section {
+    padding-top: 48px !important;
+    padding-bottom: 48px !important;
+  }
+  .min-read, .selected-for-you {
+    width: auto !important;
+  }
+  .image {
+    height: 400px;
+  }
+}
+@media (max-width: 480px) {
+  .img {
+    height: 200px;
+  }
+  .image {
+    height: 300px;
+  }
+  .btn-low {
+    padding: 0;
+  }
+}
