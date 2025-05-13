@@ -225,6 +225,15 @@ body.anime-theme {
   cursor: pointer;
 }
 
+.btn-low {
+  background: transparent;
+}
+
+.btn-low-second:hover {
+  color: #ff073a;
+  text-shadow: 0 0 5px #ff073a, 0 0 10px #ff073a, 0 0 20px #ff073a;
+}
+
 @media (max-width: 1341px) {
   .wrapper {
     padding-left: 10px;
