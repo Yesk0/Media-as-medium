@@ -16,6 +16,20 @@
 .text-gray {
   color: rgba(102, 102, 102, 0.9);
 }
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("/fonts/SFProDisplay-Regular.woff2") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+.sfpd {
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 36px;
+}
 .kanit-ms {
   font-family: "Kanit", sans-serif;
   font-weight: 500;
@@ -46,6 +60,14 @@
   line-height: 18px;
   letter-spacing: 0%;
 }
+.inter-mb {
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
 .inter-bold {
   font-family: "Inter", sans-serif;
   font-weight: 700;
@@ -54,11 +76,30 @@
   line-height: 34px;
   letter-spacing: 0%;
 }
+.inter-bs {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+.inter-bb {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 34px;
+  line-height: 38px;
+  letter-spacing: 0%;
+}
 .fw-500 {
   font-weight: 500;
 }
 .h-265px {
   height: 265px;
+}
+.h-480px {
+  height: 480px;
 }
 .h-16px {
   height: 16px;
@@ -66,6 +107,10 @@
 .w-h-24px {
   width: 24px;
   height: 24px;
+}
+.w-h-18px {
+  width: 18px;
+  height: 18px;
 }
 .w-77px {
   width: 77px;
@@ -90,6 +135,9 @@
 }
 .gap-14px {
   gap: 14px;
+}
+.gap-12px {
+  gap: 12px;
 }
 .gap-45px {
   gap: 45px;
@@ -118,6 +166,9 @@
 }
 .pt-778px {
   padding-top: 778px;
+}
+.pt-306px {
+  padding-top: 306px;
 }
 .pb-32px {
   padding-bottom: 32px;
@@ -168,4 +219,8 @@ body.anime-theme {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.title:hover {
+  cursor: pointer;
 }
