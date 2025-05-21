@@ -55,7 +55,7 @@ fetch(
           <div class="info-bottom d-flex justify-content-between w-755px">
             <div class="info-bottom__info d-flex align-items-center gap-2">
               <button
-                class="btn-top inter-medium px-3 border-0 bg-deep-blue-12 border-r-100px"
+                class="btn-top inter-medium px-3 border-0 bg-deep-blue-12 border-r-100px py-6px"
               >
                 <span class="label-text text-deep-navy">${
                   post.subsection
